@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal website and developer portfolio of Abenezer Tamirat.">
+  <title>Abenezer Tamirat | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Aben<span>miracle</span><b>.</b></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING STUDENT</p>
+        <h1>Hi, I'm <span class="gradient-text">Abenezer Tamirat.</span></h1>
+        <h2>I build ideas into <span class="typed-text" id="typedText">web experiences</span><span class="cursor">|</span></h2>
+        <p class="hero-description">I'm learning to create useful, beautiful, and accessible digital experiences through web development, application development, and cybersecurity.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="about.html">Discover my story <span>↗</span></a>
+          <a class="button button-outline" href="contact.html">Get in touch</a>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <!-- Replace the # values with your real profile URLs. -->
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+        </div>
+      </div>
+
+      <div class="profile-wrap reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span class="mini-dot"></span><span class="mini-dot"></span><span class="mini-dot"></span><span class="profile-label">MY PROFILE</span></div>
+          <div class="avatar" aria-label="Profile photo placeholder">
+            <img src="images/profile.jpg" alt="Portrait of Abenezer Tamirat" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+            <span class="avatar-fallback">AT</span>
+          </div>
+          <h3>Abenezer Tamirat</h3>
+          <p class="profile-role">Future Software Engineer</p>
+          <div class="profile-tags"><span>Web Dev</span><span>Java</span><span>Cybersecurity</span></div>
+          <div class="profile-bottom"><span>Currently learning</span><span class="available"><i></i> Always growing</span></div>
+        </div>
+        <div class="floating-badge badge-code"><span>&lt;/&gt;</span> Code with purpose</div>
+        <div class="floating-badge badge-star">✦ Keep learning</div>
+      </div>
+    </section>
+
+    <section class="quick-stats container reveal">
+      <div><strong>01</strong><span>Curiosity first</span></div>
+      <div><strong>∞</strong><span>Things to learn</span></div>
+      <div><strong>100%</strong><span>Committed to growth</span></div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal"><p class="eyebrow">WHAT I'M EXPLORING</p><h2>Learning today. <span class="gradient-text">Building tomorrow.</span></h2><p>I'm developing practical skills one project at a time.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="feature-icon">⌘</div><h3>Web Development</h3><p>Building responsive websites with HTML, CSS, and JavaScript.</p><a href="about.html">Learn more <span>→</span></a></article>
+        <article class="feature-card reveal"><div class="feature-icon">▣</div><h3>Application Development</h3><p>Practicing programming fundamentals and object-oriented design.</p><a href="about.html">Learn more <span>→</span></a></article>
+        <article class="feature-card reveal"><div class="feature-icon">⌁</div><h3>Cybersecurity</h3><p>Learning how systems are protected, tested, and made more secure.</p><a href="about.html">Learn more <span>→</span></a></article>
+      </div>
+    </section>
+    <section class="cta-section container reveal"><div><p class="eyebrow">HAVE AN IDEA?</p><h2>Let's connect and create something meaningful.</h2></div><a class="button button-primary" href="contact.html">Contact me <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html">Aben<span>miracle</span><b>.</b></a><p>Designed and built with curiosity by Abenezer Tamirat.</p><p>© <span id="year"></span> All rights reserved.</p></div></footer>
+</body>
+</html>
